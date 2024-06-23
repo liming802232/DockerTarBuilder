@@ -5,7 +5,7 @@ on:
       docker_images:
         description: 'ghcr.io/monlor/xiaoya-alist,ghcr.io/monlor/xiaoya-metadata,ghcr.io/monlor/xiaoya-embyserver,ghcr.io/monlor/xiaoya-jellyfin,homeassistant/home-assistant:latest,moelin/1panel:latest'
         required: true
-        default: 'alpine:latest'  # 设置默认的 Docker 镜像列表
+        default: 'ghcr.io/monlor/xiaoya-alist,ghcr.io/monlor/xiaoya-metadata,ghcr.io/monlor/xiaoya-embyserver,ghcr.io/monlor/xiaoya-jellyfin,homeassistant/home-assistant:latest,moelin/1panel:latest'  # 设置默认的 Docker 镜像列表
 
 jobs:
   pull_and_package:
